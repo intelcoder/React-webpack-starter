@@ -1,0 +1,19 @@
+.count-button-container{
+  display: flex;
+  > div {
+   flex-grow: 1;
+  }
+}
+.count-button{
+  @extend .hoverable;
+  color: white;
+  text-align: center;
+}
+
+.count-button.increase{
+  background-color: red;
+}
+
+.count-button.decrease{
+  background-color: blue;
+}
