@@ -10,7 +10,7 @@ class CountContainer extends React.Component {
     render() {
         const { count, increaseClick, decreaseClick } = this.props;
         return (
-            <div>
+            <div id="count-container">
                 <Count
                     count={count}
                     decreaseClick={decreaseClick}
