@@ -1,0 +1,18 @@
+@import "../../styles/mixins";
+
+#drawer-container {
+  position: fixed;
+  width:25%;
+  background-color: red;
+  .drawer-close-btn{
+    display: flex;
+    justify-content:flex-end;
+    > div {
+      margin: 1%;
+    }
+
+  }
+  .drawer-item-container{
+    @include flex-center(column);
+  }
+}
