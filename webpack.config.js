@@ -23,7 +23,7 @@ var config = {
             },
             {
                 test: /\.scss$/,
-                loaders: [ 'style', 'css?sourceMap!sass?sourceMap' ]
+                loaders: [ 'style', 'css?sourceMap!sass?sourceMaps!import-glob' ]
             }
         ]
     },
@@ -33,7 +33,7 @@ var config = {
         publicPath:'http://localhost:8080/assets/'
     },
     sassLoader: {
-        includePaths: [ 'app/styles' ]
+        includePaths: [ 'app/styles','app/components' ]
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
