@@ -1,8 +1,0 @@
-@import "../../styles/mixins";
-
-
-.fill-up{
-  @include flex-center(column);
-  height:600px;
-
-}

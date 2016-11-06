@@ -1,13 +1,10 @@
+
+
 @import "../components/App/style";
-@import "../components/DemoPage/style";
 @import "../components/CountContainer/style";
-@import "../components/SideDrawer/style";
-@import "../components/DrawerItem/style";
-@import "../components/Parallax/style";
 @import "./normalize";
 @import "./vars";
 @import "./global";
-@import "./mixins";
 
 #test {
   background-color: green;

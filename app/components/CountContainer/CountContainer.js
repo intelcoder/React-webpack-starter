@@ -8,7 +8,6 @@ import Count from './Count/Count';
 
 class CountContainer extends React.Component {
     render() {
-        console.log(this.props)
         const { count, increaseClick, decreaseClick } = this.props;
         return (
             <div id="count-container">
